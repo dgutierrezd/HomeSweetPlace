@@ -62,21 +62,21 @@ struct LoginView: View {
                 }.padding(.top, 40)
                 HStack {
                     Button(action: {}, label: {
-                        Text("G")
+                        Image("google").resizable().aspectRatio(contentMode: .fit).frame(width: 18)
                     })
                     .frame(width: 80, height: 40)
                     .background(Color("secondary"))
                     .cornerRadius(10)
                     Spacer()
                     Button(action: {}, label: {
-                        Text("G")
+                        Image("apple").resizable().aspectRatio(contentMode: .fit).frame(width: 18)
                     })
                     .frame(width: 80, height: 40)
                     .background(Color("secondary"))
                     .cornerRadius(10)
                     Spacer()
                     Button(action: {}, label: {
-                        Text("G")
+                        Image("facebook").resizable().aspectRatio(contentMode: .fit).frame(width: 11)
                     })
                     .frame(width: 80, height: 40)
                     .background(Color("secondary"))

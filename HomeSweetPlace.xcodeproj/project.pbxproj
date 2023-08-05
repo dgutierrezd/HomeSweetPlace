@@ -14,19 +14,18 @@
 		759BBD2F2A788C6B00054D10 /* InputComponent.swift in Sources */ = {isa = PBXBuildFile; fileRef = 759BBD2E2A788C6B00054D10 /* InputComponent.swift */; };
 		759BBD312A78912B00054D10 /* LargeButtonComponent.swift in Sources */ = {isa = PBXBuildFile; fileRef = 759BBD302A78912B00054D10 /* LargeButtonComponent.swift */; };
 		75D163242A6DF1A800C0245B /* LoginView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 75D163232A6DF1A800C0245B /* LoginView.swift */; };
-		75D163262A6F48F500C0245B /* SplashView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 75D163252A6F48F500C0245B /* SplashView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
-		755777282A6D861E00046285 /* HomeSweetPlace.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = HomeSweetPlace.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		755777282A6D861E00046285 /* Home Sweet Place.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Home Sweet Place.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		7557772B2A6D861E00046285 /* HomeSweetPlaceApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeSweetPlaceApp.swift; sourceTree = "<group>"; };
 		7557772D2A6D861E00046285 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		7557772F2A6D862000046285 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		755777322A6D862000046285 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		759BBD2E2A788C6B00054D10 /* InputComponent.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = InputComponent.swift; sourceTree = "<group>"; };
 		759BBD302A78912B00054D10 /* LargeButtonComponent.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LargeButtonComponent.swift; sourceTree = "<group>"; };
+		759BBD322A78AC7B00054D10 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist; path = Info.plist; sourceTree = "<group>"; };
 		75D163232A6DF1A800C0245B /* LoginView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginView.swift; sourceTree = "<group>"; };
-		75D163252A6F48F500C0245B /* SplashView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SplashView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -51,7 +50,7 @@
 		755777292A6D861E00046285 /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				755777282A6D861E00046285 /* HomeSweetPlace.app */,
+				755777282A6D861E00046285 /* Home Sweet Place.app */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -59,13 +58,13 @@
 		7557772A2A6D861E00046285 /* HomeSweetPlace */ = {
 			isa = PBXGroup;
 			children = (
+				759BBD322A78AC7B00054D10 /* Info.plist */,
 				759BBD2D2A788C4900054D10 /* Components */,
 				75D163222A6DF19700C0245B /* Auth */,
 				7557772B2A6D861E00046285 /* HomeSweetPlaceApp.swift */,
 				7557772D2A6D861E00046285 /* ContentView.swift */,
 				7557772F2A6D862000046285 /* Assets.xcassets */,
 				755777312A6D862000046285 /* Preview Content */,
-				75D163252A6F48F500C0245B /* SplashView.swift */,
 			);
 			path = HomeSweetPlace;
 			sourceTree = "<group>";
@@ -112,7 +111,7 @@
 			);
 			name = HomeSweetPlace;
 			productName = HomeSweetPlace;
-			productReference = 755777282A6D861E00046285 /* HomeSweetPlace.app */;
+			productReference = 755777282A6D861E00046285 /* Home Sweet Place.app */;
 			productType = "com.apple.product-type.application";
 		};
 /* End PBXNativeTarget section */
@@ -168,7 +167,6 @@
 				75D163242A6DF1A800C0245B /* LoginView.swift in Sources */,
 				759BBD312A78912B00054D10 /* LargeButtonComponent.swift in Sources */,
 				759BBD2F2A788C6B00054D10 /* InputComponent.swift in Sources */,
-				75D163262A6F48F500C0245B /* SplashView.swift in Sources */,
 				7557772E2A6D861E00046285 /* ContentView.swift in Sources */,
 				7557772C2A6D861E00046285 /* HomeSweetPlaceApp.swift in Sources */,
 			);
@@ -296,15 +294,16 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				ASSETCATALOG_COMPILER_INCLUDE_ALL_APPICON_ASSETS = YES;
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_ASSET_PATHS = "\"HomeSweetPlace/Preview Content\"";
 				DEVELOPMENT_TEAM = UMM993JNZH;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = HomeSweetPlace/Info.plist;
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
-				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				LD_RUNPATH_SEARCH_PATHS = (
@@ -313,7 +312,7 @@
 				);
 				MARKETING_VERSION = 1.0;
 				PRODUCT_BUNDLE_IDENTIFIER = com.dgutierrezd.HomeSweetPlace;
-				PRODUCT_NAME = "$(TARGET_NAME)";
+				PRODUCT_NAME = "Home Sweet Place";
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
@@ -325,15 +324,16 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				ASSETCATALOG_COMPILER_INCLUDE_ALL_APPICON_ASSETS = YES;
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_ASSET_PATHS = "\"HomeSweetPlace/Preview Content\"";
 				DEVELOPMENT_TEAM = UMM993JNZH;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = HomeSweetPlace/Info.plist;
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
-				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				LD_RUNPATH_SEARCH_PATHS = (
@@ -342,7 +342,7 @@
 				);
 				MARKETING_VERSION = 1.0;
 				PRODUCT_BUNDLE_IDENTIFIER = com.dgutierrezd.HomeSweetPlace;
-				PRODUCT_NAME = "$(TARGET_NAME)";
+				PRODUCT_NAME = "Home Sweet Place";
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";

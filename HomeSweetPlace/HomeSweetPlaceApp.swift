@@ -13,20 +13,7 @@ struct HomeSweetPlaceApp: App {
     
     var body: some Scene {
         WindowGroup {
-            ZStack {
-                if self.isActive {
-                    ContentView()
-                } else {
-                    SplashView()
-                }
-            }
-            .onAppear {
-                DispatchQueue.main.asyncAfter(deadline: .now() + 2.5) {
-                    withAnimation {
-                        self.isActive = true
-                    }
-                }
-            }
+            ContentView()
         }
     }
 }
